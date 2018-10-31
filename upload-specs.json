@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "pattern": "app.py",
+      "target": "docker/my-busybox/latest/app1.py",
+      "props": "p1=v1;p2=v2"
+    },
+    {
+      "pattern": "Dockerfile",
+      "target": "docker/my-busybox/latest/Dockerfile.1",
+      "props":"p1=v1;p2=v2"
+    },
+    {
+      "pattern": "app.js",
+      "target": "docker/my-busybox/latest/app1.js",
+      "props": "p1=v1;p2=v2"
+    }
+
+     ]
+}

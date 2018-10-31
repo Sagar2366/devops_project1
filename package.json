@@ -1,0 +1,22 @@
+{
+  "name": "project_work_1",
+  "version": "1.0.0",
+  "description": "nodejs application testing",
+  "main": "server.js",
+  "scripts": {
+    "test": "nyc ./node_modules/jasmine-xml-reporter/bin/jasmine.js",
+    "start": "node app.js"
+  },
+  "author": "Sagar Utekar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "nyc": "^13.0.1",
+    "jasmine-xml-reporter": "^1.2.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "jasmine-node": "^1.14.5"
+  }
+}
